@@ -76,7 +76,7 @@ async def scrape_items():
                 print(f"❌ Error on page {page} ({url}): {result.error_message}")
                 break  # Optional: stop on first error, or continue
 
-            await asyncio.sleep(2)  # Be polite to Flipkart’s servers
+            await asyncio.sleep(2)  
 
     df = pd.DataFrame(all_data)
     df.to_excel("laptops.xlsx", index=False)
