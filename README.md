@@ -1,5 +1,7 @@
 📄 Flipkart Laptop Scraper Documentation
+
 🧾 Overview
+
 This Python script uses Crawl4AI to scrape laptop listings from Flipkart, extracting structured product data like name, price, description, and rating. It paginates through the search results, stops automatically when no more data is available, and exports the results to an Excel file (laptops.xlsx).
 
 The crawler uses a CSS selector-based schema with Crawl4AI's JsonCssExtractionStrategy, processes pages asynchronously, and runs a headless browser to simulate real-user behavior.
